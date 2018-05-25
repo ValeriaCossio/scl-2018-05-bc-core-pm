@@ -1,1 +1,93 @@
 /* Acá va tu código */
+
+h1 {
+    color:#2c1863;
+    font-family: monospace;
+    font-size: 50px;
+margin-bottom: 30px;
+margin-top: 30px;
+}
+
+textarea {
+    overflow-y:scroll;
+    overflow-x: auto;
+    height: 100px;
+    width: 150;
+    font-size: 15px;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 0px;
+    border: 3px solid #999;
+   }
+
+   #resultado {
+       position: absolute;
+       right: 1px;
+       top:28%; 
+   }
+
+   #dcBox {
+    position: absolute;
+    
+    top:10%;   
+   }
+
+   #numerito {
+       position: absolute;
+       left: 42%;
+       top: 28%;
+       border: 2px solid #999;
+       padding: 10px 10px;
+       font-size: 17px;
+   }
+
+   #indic {
+    position: absolute;
+    left: 39%;
+    top: 20%;
+    font-size: 15px;
+   }
+  
+#button {
+    margin-left: 80%;
+    background: rgb(68, 60, 182);
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 16px;
+    transition-duration: .5s;
+    margin-top: 15px;
+    cursor: pointer;
+    box-shadow: 0 3px rgb(92, 87, 87);
+    color: rgb(236, 226, 226);
+    }
+  
+#battan #button:active {
+    background-color: #0d141f;
+    box-shadow: 0 5px rgb(24, 22, 22);
+    transform: translateY(4px);
+    }
+
+    #battan{
+        margin-left: 65%;
+        background: rgb(243, 122, 117);
+        border: none;
+        border-radius: 5px;
+        padding: 10px;
+        color: rgb(0, 0, 0);
+        font-size: 16px;
+        transition-duration: .5s;
+        margin-top: 15px;
+        cursor: pointer;
+        box-shadow: 0 3px rgb(87, 82, 82);
+        color: rgb(226, 206, 206);
+    }
+  
+p {
+    height: 20px;
+    margin-left: 30px;
+    color: rgb(60, 58, 143);
+    font-size: 21px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+    }
+  
