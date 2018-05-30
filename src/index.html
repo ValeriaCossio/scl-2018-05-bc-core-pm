@@ -11,29 +11,28 @@
   
     <h1><center>Cifrado césar</center></h1>
   
-<div id="cajaCipher"></div>
-<div id="cajaDesipher"></div>
+    <div id="cajaCipher"></div>
+    <div id="cajaDesipher"></div>
 
   <div id="dcBox"> 
     <p>Ingresa un texto para cifrar</p>
-    <textarea name="" id="ccText" cols="55" rows="10"></textarea><br />
-    <input type="button" id="button" onclick="cipher()" value="cifrar"/>
+    <textarea id="ccText" cols="55" rows="10"></textarea><br />
+    <input type="button" id="button" onclick="cipher.encode()" value="cifrar"/>
 
     <p>Ingresa el texto cifrado</p>
-    <textarea name="ddText" id="" cols="55" rows="10"></textarea><br />
-    <input type="button" id="button" onclick="decipher()" value="descifrar"/>
+    <textarea id="ddText" cols="55" rows="10"></textarea><br />
+    <input type="button" id="button" onclick="cipher.decode()" value="descifrar"/>
   </div>
 
-<div id="resultado">  
+  <div id="resultado">  
     <p>Resultado</p>
-    <textarea name="" id="uwu
-    " cols="55" rows="10"></textarea>
+    <textarea name="" id="cipherDecipher" cols="55" rows="10"></textarea>
     <input type="reset" id="battan" onclick="clear()" value="Resetear"/>
 
-   </div>
+  </div>
 
 
-  <p id="indic">Indicar posición    </p>
+  <p id="offset">Indicar posición</p>
   <input type="number" id="numerito" min="0" max="33" value="0"/>
  
 </div>
