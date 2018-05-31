@@ -4,11 +4,12 @@
   <meta charset="utf-8">
   <title>Caesar Cipher</title>
   <link rel="stylesheet" href="style.css" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body>
 
   <div id="root">
-  
+    <form>
     <h1><center>Cifrado césar</center></h1>
   
     <div id="cajaCipher"></div>
@@ -16,27 +17,34 @@
 
   <div id="dcBox"> 
     <p>Ingresa un texto para cifrar</p>
-    <textarea id="ccText" cols="55" rows="10"></textarea><br />
+    <textarea id="ccText" cols="55" rows="10"></textarea>
     <input type="button" id="button" onclick="cipher.encode()" value="cifrar"/>
-
+   
     <p>Ingresa el texto cifrado</p>
-    <textarea id="ddText" cols="55" rows="10"></textarea><br />
+    <textarea id="ddText" cols="55" rows="10"></textarea>
     <input type="button" id="button" onclick="cipher.decode()" value="descifrar"/>
   </div>
 
   <div id="resultado">  
     <p>Resultado</p>
     <textarea name="" id="cipherDecipher" cols="55" rows="10"></textarea>
-    <input type="reset" id="battan" onclick="clear()" value="Resetear"/>
-
   </div>
 
 
   <p id="offset">Indicar posición</p>
-  <input type="number" id="numerito" min="0" max="33" value="0"/>
- 
+  
+<input type="number" id="numerito" min="0" max="33" value="0"/>
+<input type="reset" id="reset" onclick="clear()" value="Resetear"/>
+
+</form> 
 </div>
-  <script src="cipher.js"></script>
+   
+
+
+
+<script src="cipher.js"></script>
   <script src="index.js"></script>
+
+
 </body>
 </html>

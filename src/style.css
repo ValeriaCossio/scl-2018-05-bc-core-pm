@@ -1,24 +1,25 @@
 /* Acá va tu código */
 
+
 h1 {
     color:#2c1863;
     font-family: monospace;
     font-size: 50px;
-margin-bottom: 30px;
-margin-top: 30px;
+    margin-bottom: 30px;
+    margin-top: 30px;
 }
 
 textarea {
     overflow-y:scroll;
     overflow-x: auto;
     height: 100px;
-    
+    width: 450px;
     font-size: 15px;
     margin-left: 20px;
     margin-right: 20px;
     padding: 0px;
     border: 3px solid #999;
-   }
+    }
 
    #resultado {
        position: absolute;
@@ -62,13 +63,13 @@ textarea {
     color: rgb(236, 226, 226);
     }
   
-#battan #button:active {
+#reset #button:active {
     background-color: #0d141f;
     box-shadow: 0 5px rgb(24, 22, 22);
     transform: translateY(4px);
     }
 
-    #battan{
+    #reset{
         margin-left: 65%;
         background: rgb(243, 122, 117);
         border: none;
@@ -90,4 +91,15 @@ p {
     font-size: 21px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
     }
+
+
+    @media only screen and (min-width: 768px) and (max-width: 100%){
+        textarea {
+            width: 300px;
+
+        }
+    }
+
+    
+
   
