@@ -1,73 +1,109 @@
 /* Acá va tu código */
-
-
 h1 {
     color:#2c1863;
-    font-family: monospace;
+    font-family: 'Bowlby One SC', cursive;
     font-size: 50px;
     margin-bottom: 30px;
     margin-top: 30px;
+    text-align: center;
+    background-color: pink; 
+   }
+
+ h5{
+    font-family: 'Caveat Brush', cursive;
+    text-align: center;
+    font-size: 25px;
+    position:absolute;
+    top: 50px;
+    left: 55%;
 }
+
 
 textarea {
     overflow-y:scroll;
     overflow-x: auto;
-    height: 100px;
-    width: 450px;
+    height: 120px;
+    width: 370px;
     font-size: 15px;
     margin-left: 20px;
     margin-right: 20px;
+    margin-top: 7%;
     padding: 0px;
     border: 3px solid #999;
+
+    }
+
+    #ddText{
+        position: absolute;
+        left: 8px;
+        bottom: 7%;
+    }
+    .button{
+        position: absolute;
+        top: 50%;
+        left: 32%;
+    }
+    .button2{
+        position: absolute;
+        bottom: 7%;
+        left: 32%;
     }
 
    #resultado {
        position: absolute;
-       right: 1px;
-       top:28%; 
-   }
-
-   #dcBox {
-    position: absolute;
-    
-    top:10%;   
+       right: 20px;
+       top:40%; 
    }
 
    #numerito {
        position: absolute;
-       left: 42%;
-       top: 28%;
+       left: 47%;
+       top: 48%;
        border: 2px solid #999;
        padding: 10px 10px;
        font-size: 17px;
    }
 
    #offset {
-    position: absolute;
-    left: 39%;
-    top: 20%;
-    font-size: 15px;
-   }
-  
-#button {
-    margin-left: 80%;
-    background: rgb(68, 60, 182);
-    border: none;
-    border-radius: 5px;
-    padding: 10px;
-    font-size: 16px;
-    transition-duration: .5s;
-    margin-top: 15px;
-    cursor: pointer;
-    box-shadow: 0 3px rgb(92, 87, 87);
-    color: rgb(236, 226, 226);
+    font-family: 'Fredoka One', cursive;
+       position: absolute;
+       left: 45%;
+       top: 42%;
+       font-size: 15px;
+    }
+
+    .button, .button2 {
+   
+       background: rgb(228, 247, 120);
+       border: none;
+       border-radius: 5px;
+       padding: 10px;
+       font-size: 16px;
+       transition-duration: .5s;
+       cursor: pointer;
+       box-shadow: 0 3px rgb(92, 87, 87);
+       color: rgb(44, 39, 39);
     }
   
-#reset #button:active {
-    background-color: #0d141f;
-    box-shadow: 0 5px rgb(24, 22, 22);
-    transform: translateY(4px);
+   .button2:active {
+       background-color: #9fa73d;
+       box-shadow: 0 5px rgb(121, 114, 114);;
+       transform: translateY(4px);
     }
+
+    .button:active{
+        background-color: #9fa73d;
+       box-shadow: 0 5px rgb(121, 114, 114);
+       transform: translateY(4px);
+    }
+
+    #reset:active{
+        background-color: #5e2937;
+       box-shadow: 0 5px rgb(58, 30, 30);
+       transform: translateY(4px);
+    }
+
+
 
     #reset{
         margin-left: 65%;
@@ -81,24 +117,67 @@ textarea {
         margin-top: 15px;
         cursor: pointer;
         box-shadow: 0 3px rgb(87, 82, 82);
-        color: rgb(226, 206, 206);
+        color: rgb(17, 6, 6);
+        position:absolute;
+        top: 58%;
+        right: 46%;
     }
   
-p {
-    height: 20px;
-    margin-left: 30px;
-    color: rgb(60, 58, 143);
-    font-size: 21px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+    p {
+        height: 20px;
+        margin-left: 20px;
+        color: rgb(60, 58, 143);
+        font-size: 21px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     }
 
 
-    @media only screen and (min-width: 768px) and (max-width: 100%){
-        textarea {
-            width: 300px;
-
-        }
+    #uno{
+        font-family: 'Fredoka One', cursive;
+        border: solid rgb(110, 108, 108) 3px;
+        background-color: rgb(176, 229, 245);
+        height: 6%;
+        width: 25%;
+        text-align: center;
+        border-radius: 7px;
+        color: rgb(110, 108, 108);
+        position: absolute;
+        top: 26%;
     }
+
+    #dos{
+        font-family: 'Fredoka One', cursive;
+        border: solid rgb(110, 108, 108) 3px;
+        background-color: rgb(176, 229, 245);
+        height:6%;
+        width: 20%;
+        text-align: center;
+        border-radius: 7px;
+        color: rgb(110, 108, 108);
+        position: absolute;
+        top: 62%;
+    }
+
+    #tres{
+        font-family: 'Fredoka One', cursive;
+        border: solid rgb(110, 108, 108) 3px;
+        background-color: rgb(176, 229, 245);
+        height:20%;
+        width: 25%;
+        text-align: center;
+        border-radius: 7px;
+        color: rgb(110, 108, 108);
+        position: absolute;
+        bottom: 70%;
+
+        
+    }
+
+ 
+
+  
+
+    
 
     
 

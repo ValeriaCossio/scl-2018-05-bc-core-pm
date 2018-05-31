@@ -4,29 +4,36 @@
   <meta charset="utf-8">
   <title>Caesar Cipher</title>
   <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://afeld.github.io/emoji-css/emoji.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Bowlby+One+SC">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Fredoka+One">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Caveat+Brush">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body>
 
+ 
   <div id="root">
     <form>
     <h1><center>Cifrado césar</center></h1>
+    <h5>Cumpleaños sorpresa <i class="em em-tada"></i></h5>
+    
   
     <div id="cajaCipher"></div>
     <div id="cajaDesipher"></div>
 
   <div id="dcBox"> 
-    <p>Ingresa un texto para cifrar</p>
+    <p id="uno">Ingresa un texto para cifrar</p>
     <textarea id="ccText" cols="55" rows="10"></textarea>
-    <input type="button" id="button" onclick="cipher.encode()" value="cifrar"/>
+    <input type="button" class="button" onclick="cipher.encode()" value="cifrar"/>
    
-    <p>Ingresa el texto cifrado</p>
+    <p id="dos">Ingresa el texto cifrado</p>
     <textarea id="ddText" cols="55" rows="10"></textarea>
-    <input type="button" id="button" onclick="cipher.decode()" value="descifrar"/>
+    <input type="button" class="button2" onclick="cipher.decode()" value="descifrar"/>
   </div>
 
   <div id="resultado">  
-    <p>Resultado</p>
+    <p id="tres">Resultado</p>
     <textarea name="" id="cipherDecipher" cols="55" rows="10"></textarea>
   </div>
 
