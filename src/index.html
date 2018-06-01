@@ -8,13 +8,17 @@
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Bowlby+One+SC">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Fredoka+One">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Caveat+Brush">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Baloo">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body>
 
- 
-  <div id="root">
-    <form>
+ <img src="../src/img/gato.jpg" width="350" height="290"> 
+<p id="instrucciones"><a target="_blank" href="https://github.com/ValeriaCossio/scl-2018-05-bc-core-pm/blob/master/README.md">
+   Aquí</a> te muestro cómo usar
+    y descargar esta aplicación.</p>
+
+  <form>
     <h1><center>Cifrado césar</center></h1>
     <h5>Cumpleaños sorpresa <i class="em em-tada"></i></h5>
     
@@ -23,17 +27,17 @@
     <div id="cajaDesipher"></div>
 
   <div id="dcBox"> 
-    <p id="uno">Ingresa un texto para cifrar</p>
+    <p id="texto1">Ingresa un texto para cifrar</p>
     <textarea id="ccText" cols="55" rows="10"></textarea>
     <input type="button" class="button" onclick="cipher.encode()" value="cifrar"/>
    
-    <p id="dos">Ingresa el texto cifrado</p>
+    <p id="texto2">Ingresa el texto cifrado</p>
     <textarea id="ddText" cols="55" rows="10"></textarea>
     <input type="button" class="button2" onclick="cipher.decode()" value="descifrar"/>
   </div>
 
   <div id="resultado">  
-    <p id="tres">Resultado</p>
+    <p id="texto3">Resultado</p>
     <textarea name="" id="cipherDecipher" cols="55" rows="10"></textarea>
   </div>
 
@@ -42,8 +46,7 @@
   
 <input type="number" id="numerito" min="0" max="33" value="0"/>
 <input type="reset" id="reset" onclick="clear()" value="Resetear"/>
-
-</form> 
+</form>
 </div>
    
 

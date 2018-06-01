@@ -1,176 +1,233 @@
-/* Acá va tu código */
-h1 {
-    color:#2c1863;
-    font-family: 'Bowlby One SC', cursive;
-    font-size: 50px;
-    margin-bottom: 30px;
-    margin-top: 30px;
-    text-align: center;
-    background-color: pink; 
-   }
-
- h5{
-    font-family: 'Caveat Brush', cursive;
-    text-align: center;
-    font-size: 25px;
-    position:absolute;
-    top: 50px;
-    left: 55%;
+body{
+    background-color: #FBCDCF;
+}
+img{
+    position: fixed;
+    right: -3px;
+    top: -1px;
 }
 
+#instrucciones{
+    position: absolute;
+    right: 35px;
+    top: 62px;
+    font-size: 1.2rem;
+    color: black;
+    width: 150px;
+    font-family: 'Baloo', cursive;
 
-textarea {
+}
+
+h1{
+    color:#4a328d;
+    font-family: 'Bowlby One SC', cursive;
+    font-size: 50px;
+    text-align: center;
+    background-color: rgb(151, 147, 235);
+    width: 50%;
+    border-radius: 20px; 
+    margin-left: 20%;
+    }
+
+h5{
+    font-family: 'Caveat Brush', cursive;
+    text-align: center;
+    font-size: 35px;
+    position:relative;
+    bottom: 55px;
+    left: 45%;
+    display: inline;   
+    }
+
+#ddText{
     overflow-y:scroll;
     overflow-x: auto;
     height: 120px;
     width: 370px;
     font-size: 15px;
-    margin-left: 20px;
-    margin-right: 20px;
+    padding: 0px;
+    border: 3px solid #999;
+    position: relative;
+    top: 33px;
+    right: -182px;
+    }
+
+#ccText{
+    overflow-y:scroll;
+    overflow-x: auto;
+    height: 120px;
+    width: 370px;
+    font-size: 15px;
     margin-top: 7%;
     padding: 0px;
     border: 3px solid #999;
-
+    position: absolute;
+    bottom: 273px;
+    right: 698px;
     }
 
-    #ddText{
-        position: absolute;
-        left: 8px;
-        bottom: 7%;
+
+ 
+
+#cipherDecipher {
+    overflow-y:scroll;
+    overflow-x: auto;
+    height: 120px;
+    width: 370px;
+    font-size: 15px;
+    margin-top: 7%;
+    padding: 0px;
+    border: 3px solid #999;
+    position: relative;
+    left: 730px;
+    bottom: 371px;
     }
-    .button{
-        position: absolute;
-        top: 50%;
-        left: 32%;
-    }
-    .button2{
-        position: absolute;
-        bottom: 7%;
-        left: 32%;
+    
+
+
+#resultado{
+    position: relative;
+    right: 20px;
+    top:40%;
+    display: inline; 
     }
 
-   #resultado {
-       position: absolute;
-       right: 20px;
-       top:40%; 
+#numerito{
+    position: relative;
+    left: -466px;
+    bottom: 554px;
+    border: 2px solid #999;
+    padding: 10px 10px;
+    font-size: 17px;
+    display: inline;
    }
 
-   #numerito {
-       position: absolute;
-       left: 47%;
-       top: 48%;
-       border: 2px solid #999;
-       padding: 10px 10px;
-       font-size: 17px;
-   }
-
-   #offset {
+#offset{
     font-family: 'Fredoka One', cursive;
-       position: absolute;
-       left: 45%;
-       top: 42%;
-       font-size: 15px;
+    position: relative;
+    left: -351px;
+    bottom: 595px;
+    font-size: 15px;
+    display: inline;
     }
 
-    .button, .button2 {
-   
-       background: rgb(228, 247, 120);
-       border: none;
-       border-radius: 5px;
-       padding: 10px;
-       font-size: 16px;
-       transition-duration: .5s;
-       cursor: pointer;
-       box-shadow: 0 3px rgb(92, 87, 87);
-       color: rgb(44, 39, 39);
-    }
-  
-   .button2:active {
-       background-color: #9fa73d;
-       box-shadow: 0 5px rgb(121, 114, 114);;
-       transform: translateY(4px);
+p{  
+    height: 20px;
+    margin-left: 20px;
+    color: rgb(60, 58, 143);
+    font-size: 21px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     }
 
-    .button:active{
-        background-color: #9fa73d;
-       box-shadow: 0 5px rgb(121, 114, 114);
-       transform: translateY(4px);
+.button{
+    background: rgb(228, 247, 120);
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 16px;
+    transition-duration: .5s;
+    cursor: pointer;
+    box-shadow: 0 3px rgb(92, 87, 87);
+    color: rgb(44, 39, 39);
+    position: relative;
+    top: 32px;
+    left: 560px;
     }
 
-    #reset:active{
-        background-color: #5e2937;
-       box-shadow: 0 5px rgb(58, 30, 30);
-       transform: translateY(4px);
-    }
-
-
-
-    #reset{
-        margin-left: 65%;
-        background: rgb(243, 122, 117);
-        border: none;
-        border-radius: 5px;
-        padding: 10px;
-        color: rgb(0, 0, 0);
-        font-size: 16px;
-        transition-duration: .5s;
-        margin-top: 15px;
-        cursor: pointer;
-        box-shadow: 0 3px rgb(87, 82, 82);
-        color: rgb(17, 6, 6);
-        position:absolute;
-        top: 58%;
-        right: 46%;
+.button2{
+    background: rgb(228, 247, 120);
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 16px;
+    transition-duration: .5s;
+    cursor: pointer;
+    box-shadow: 0 3px rgb(92, 87, 87);
+    color: rgb(44, 39, 39);
+    position: relative;
+    bottom: -17px;
+    left: 181px;
     }
   
-    p {
-        height: 20px;
-        margin-left: 20px;
-        color: rgb(60, 58, 143);
-        font-size: 21px;
-        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+.button2:active{
+    background-color: #9fa73d;
+    box-shadow: 0 5px rgb(121, 114, 114);;
+    transform: translateY(4px);
+    }
+
+.button:active{
+    background-color: #9fa73d;
+    box-shadow: 0 5px rgb(121, 114, 114);
+    transform: translateY(4px);
+    }
+
+#reset:active{
+     background-color: #5e2937;
+    box-shadow: 0 5px rgb(58, 30, 30);
+    transform: translateY(4px);
     }
 
 
-    #uno{
-        font-family: 'Fredoka One', cursive;
-        border: solid rgb(110, 108, 108) 3px;
-        background-color: rgb(176, 229, 245);
-        height: 6%;
-        width: 25%;
-        text-align: center;
-        border-radius: 7px;
-        color: rgb(110, 108, 108);
-        position: absolute;
-        top: 26%;
+
+#reset{
+    background: rgb(243, 122, 117);
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    color: rgb(0, 0, 0);
+    font-size: 16px;
+    transition-duration: .5s;
+    cursor: pointer;
+    box-shadow: 0 3px rgb(87, 82, 82);
+    color: rgb(17, 6, 6);
+    position: relative;
+    bottom: 388px;
+    left: 508px;
+    display: inline;
+    }
+  
+
+
+#texto1{
+    font-family: 'Fredoka One', cursive;
+    border: solid rgb(110, 108, 108) 3px;
+    background-color: rgb(176, 229, 245);
+    height: 6%;
+    width: 30%;
+    text-align: center;
+    border-radius: 7px;
+    color: rgb(110, 108, 108);
+    position: relative;
+    right: -161px;
+    bottom: 38px;
     }
 
-    #dos{
-        font-family: 'Fredoka One', cursive;
-        border: solid rgb(110, 108, 108) 3px;
-        background-color: rgb(176, 229, 245);
-        height:6%;
-        width: 20%;
-        text-align: center;
-        border-radius: 7px;
-        color: rgb(110, 108, 108);
-        position: absolute;
-        top: 62%;
+#texto2{
+    font-family: 'Fredoka One', cursive;
+    border: solid rgb(110, 108, 108) 3px;
+    background-color: rgb(176, 229, 245);
+    height:6%;
+    width: 30%;
+    text-align: center;
+    border-radius: 7px;
+    color: rgb(110, 108, 108);
+    position: relative;
+    right: -161px;
+    bottom: -50px;
     }
 
-    #tres{
-        font-family: 'Fredoka One', cursive;
-        border: solid rgb(110, 108, 108) 3px;
-        background-color: rgb(176, 229, 245);
-        height:20%;
-        width: 25%;
-        text-align: center;
-        border-radius: 7px;
-        color: rgb(110, 108, 108);
-        position: absolute;
-        bottom: 70%;
-
-        
+#texto3{
+    font-family: 'Fredoka One', cursive;
+    border: solid rgb(110, 108, 108) 3px;
+    background-color: rgb(176, 229, 245);
+    height:20%;
+    width: 30%;
+    text-align: center;
+    border-radius: 7px;
+    color: rgb(110, 108, 108);
+    position: relative;
+    bottom: 266px;
+    left: 709px;
     }
 
  
