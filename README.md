@@ -10,11 +10,15 @@ Mi pagina creada para el proyecto ha sido creada con colores sobrios, alegres y 
 
 ## Cómo usar
 
-Esta aplicación es muy fácil de usar.
--**Para indicar posición:** Selecciona un número del cuadrado de la izquierda.
--**Para cifrar:** Debes ingresar tu mensaje a cifrar en la caja “Ingresa texto para cifrar” y hacer click al botón “cifrar” para que el mensaje cifrado aparezca en la caja de “Resultado”.
--**Para descifrar:** Debes copiar el mensaje cifrado, hacer click al botón “descifrar” y tu mensaje descifrado aparecerá en la caja de Resultados.
--**Para resetear:** Debes hacer click al botón “resetear”.
+Esta aplicación es muy fácil de usar. Sigue las siguientes indicaciones.
+
+- **Para indicar posición:** Selecciona un número del cuadrado de la izquierda.
+
+- **Para cifrar:** Debes ingresar tu mensaje a cifrar en la caja “Ingresa texto para cifrar” y hacer click al botón “cifrar” para que el mensaje cifrado aparezca en la caja de “Resultado”.
+
+- **Para descifrar:** Debes copiar el mensaje cifrado, hacer click al botón “descifrar” y tu mensaje descifrado aparecerá en la caja de Resultados.
+
+- **Para resetear:** Debes hacer click al botón “resetear”.
 ¡Tan fácil como eso!
 
 ## Cómo descargar
