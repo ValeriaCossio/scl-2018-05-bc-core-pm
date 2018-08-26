@@ -1,5 +1,5 @@
 window.cipher = {
-  encode: (string,offset) => {
+  encode: (string, offset) => {
     /* Acá va tu código */
     string = document.getElementById('ccText').value;
     offset = parseInt(document.getElementById('numerito').value);
@@ -9,19 +9,18 @@ window.cipher = {
       const move = String.fromCharCode(cipher);
       letrasCifradas += move;
     }
-   document.getElementById("cipherDecipher").innerHTML = letrasCifradas;
+    document.getElementById('cipherDecipher').innerHTML = letrasCifradas;
   },
   
-  decode: (string,offset) => {
+  decode: (string, offset) => {
     /* Acá va tu código */
-    string= document.getElementById('ddText').value;
+    string = document.getElementById('ddText').value;
     offset = parseInt(document.getElementById('numerito').value);
-    let letrasDescifradas = "";
+    let letrasDescifradas = '';
     for (let o = 0; o < string.length; o++) {
       const cipher = (string.toUpperCase().charCodeAt(o) + 65 - offset) % 26 + 65;
       const move = String.fromCharCode(cipher);
       letrasDescifradas += move;
     }
-    document.getElementById("cipherDecipher").innerHTML = letrasDescifradas;
-
-  } }
+    document.getElementById('cipherDecipher').innerHTML = letrasDescifradas;
+  } };
