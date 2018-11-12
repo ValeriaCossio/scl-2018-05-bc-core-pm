@@ -23,4 +23,5 @@ window.cipher = {
       letrasDescifradas += move;
     }
     document.getElementById('cipherDecipher').innerHTML = letrasDescifradas;
-  } };
+  } 
+};
