@@ -1,6 +1,5 @@
 window.cipher = {
   encode: (string, offset) => {
-    /* Acá va tu código */
     string = document.getElementById('ccText').value;
     offset = parseInt(document.getElementById('numerito').value);
     let letrasCifradas = '';
@@ -13,7 +12,6 @@ window.cipher = {
   },
   
   decode: (string, offset) => {
-    /* Acá va tu código */
     string = document.getElementById('ddText').value;
     offset = parseInt(document.getElementById('numerito').value);
     let letrasDescifradas = '';
