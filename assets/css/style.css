@@ -3,11 +3,32 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
-.result {
-    height: 8rem;
+textarea#cipher-decipher, textarea#result, .card {
+    width: 60%;
+    margin: auto;
+}
+input, textarea#result, textarea#cipher-decipher {
+    padding: 5px;
+    border: rgb(172, 172, 172) 4px solid;
+    border-radius: 15px;
+}
+input:focus {
+    outline-color: transparent !important;
+}
+.p-title, .btn {
+    font-weight: 800;
+}
+.btn {
+    background: tomato;
     color: white;
 }
-textarea#ccText, .result {
-    width: 70%;
-    margin: auto;
+h1 {
+    font-weight: bold;
+    color: rgb(128, 40, 211);
+}
+
+@media (max-width: 765px) {
+    .card {
+        width: 100%;
+    }
 }
