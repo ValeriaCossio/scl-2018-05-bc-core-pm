@@ -11,7 +11,56 @@
 </head>
 <body>
 
+  <header>
+    <h1>Cifrado César</h1>
+  </header>
 
+  <section class="container">
+    <div class="row">
+      <div class="col-12">
+        <p id="texto1">Ingresa un texto para cifrar</p>
+        <textarea id="ccText"></textarea>
+        <div id="cajaCipher"></div>
+      </div>
+
+      <div class="col-12 d-flex">
+        <button type="button" class="button" onclick="cipher.encode()">cifrar</button>
+        <button type="button" class="button2" onclick="cipher.decode()">descifrar</button>
+        <button type="button" class="button3" onclick="location.reload()">clear</button>  
+      </div>
+
+      <div class="col-12">
+        <p id="texto3">Resultado</p>
+        <textarea id="cipherDecipher"></textarea>
+      </div> 
+    </div>
+  </section>
+
+
+<!--ddddddddddddddddddddddddd--> <hr>
+
+
+  <section class="container">
+    <div class="row">
+      <div class="col-6">
+        <p id="texto1">Ingresa un texto para cifrar</p>
+        <textarea id="ccText"></textarea>
+        <button type="button" class="button" onclick="cipher.encode()">cifrar</button>
+        <div id="cajaCipher"></div>
+      </div>
+
+      <div class="col-6">
+        <p id="texto2">Ingresa el texto cifrado</p>
+        <textarea id="ddText"></textarea>
+        <button type="button" class="button2" onclick="cipher.decode()">descifrar</button>          
+      </div>
+
+      <div class="col-12">
+        <p id="texto3">Resultado</p>
+        <textarea id="cipherDecipher"></textarea>
+      </div> 
+    </div>
+  </section>
 
 
   <section class="container">
@@ -23,38 +72,6 @@
     </div>
   </section>
 
-  <section class="container">
-    <div class="row">
-      <div class="col-12 col-md-6 offset-md-3">
-        <p id="texto1">Ingresa un texto para cifrar</p>
-        <textarea id="ccText"></textarea>
-        <button type="button" class="button" onclick="cipher.encode()">cifrar</button>
-        <div id="cajaCipher"></div>
-      </div>
-    </div>
-  </section>
-
- 
-
-  <section class="container">
-    <div class="row">
-        <div class="col-12 col-md-6 offset-md-3">
-          <p id="texto2">Ingresa el texto cifrado</p>
-          <textarea id="ddText"></textarea>
-          <button type="button" class="button2" onclick="cipher.decode()">descifrar</button>          
-        </div>
-    </div>
-  </section>
-
-
-  <section class="container">
-    <div class="row">
-        <div class="col-12 col-md-8 offset-md-2">
-          <p id="texto3">Resultado</p>
-          <textarea id="cipherDecipher"></textarea>
-        </div> 
-    </div>
-  </section>
 
 
 

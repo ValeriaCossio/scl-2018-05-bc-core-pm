@@ -9,10 +9,11 @@ window.cipher = {
       letrasCifradas += move;
     }
     document.getElementById('cipherDecipher').innerHTML = letrasCifradas;
+    console.log("cifra ctm")
   },
   
   decode: (string, offset) => {
-    string = document.getElementById('ddText').value;
+    string = document.getElementById('ccText').value;
     offset = parseInt(document.getElementById('numerito').value);
     let letrasDescifradas = '';
     for (let o = 0; o < string.length; o++) {
@@ -21,5 +22,7 @@ window.cipher = {
       letrasDescifradas += move;
     }
     document.getElementById('cipherDecipher').innerHTML = letrasDescifradas;
-  } 
+    console.log("descifra ctm")
+  }
 };
+
