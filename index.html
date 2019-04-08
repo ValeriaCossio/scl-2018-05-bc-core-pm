@@ -4,6 +4,8 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="assets/bootstrap/css/bootstrap-grid.css">
+  <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.css">
+  <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
   <link rel="stylesheet" href="assets/css/style.css">
   <link rel="stylesheet" href="assets/css/mediaqueries.css">
   <title>Cifrado César</title>
@@ -11,77 +13,38 @@
 </head>
 <body>
 
-  <header>
-    <h1>Cifrado César</h1>
-  </header>
-
   <section class="container">
-    <div class="row">
+    <div class="row text-center">
       <div class="col-12">
-        <p id="texto1">Ingresa un texto para cifrar</p>
-        <textarea id="ccText"></textarea>
-        <div id="cajaCipher"></div>
+        <h1>Cifrado César</h1>
       </div>
 
-      <div class="col-12 d-flex">
-        <button type="button" class="button" onclick="cipher.encode()">cifrar</button>
-        <button type="button" class="button2" onclick="cipher.decode()">descifrar</button>
-        <button type="button" class="button3" onclick="location.reload()">clear</button>  
-      </div>
-
-      <div class="col-12">
-        <p id="texto3">Resultado</p>
-        <textarea id="cipherDecipher"></textarea>
-      </div> 
-    </div>
-  </section>
-
-
-<!--ddddddddddddddddddddddddd--> <hr>
-
-
-  <section class="container">
-    <div class="row">
-      <div class="col-6">
-        <p id="texto1">Ingresa un texto para cifrar</p>
-        <textarea id="ccText"></textarea>
-        <button type="button" class="button" onclick="cipher.encode()">cifrar</button>
-        <div id="cajaCipher"></div>
-      </div>
-
-      <div class="col-6">
-        <p id="texto2">Ingresa el texto cifrado</p>
-        <textarea id="ddText"></textarea>
-        <button type="button" class="button2" onclick="cipher.decode()">descifrar</button>          
-      </div>
-
-      <div class="col-12">
-        <p id="texto3">Resultado</p>
-        <textarea id="cipherDecipher"></textarea>
-      </div> 
-    </div>
-  </section>
-
-
-  <section class="container">
-    <div class="row">
-      <div class="col-12">
+      <div class="col-12 my-3">
         <p id="offset">Indicar posición</p>   
         <input type="number" id="numerito" min="0" max="33"/>       
-     </div>
+      </div>
+
+      <div class="col-12 justify-content-center">
+        <p id="texto1">Ingresa un texto para cifrar</p>
+        <textarea class="form-control text-center w-70 m-auto" id="ccText" rows="5" maxlength="3000"></textarea>
+        <div id="cajaCipher"></div>
+      </div>
+
+      <div class="col-12 d-flex justify-content-center">
+        <button type="button" class="btn my-3 mr-2" onclick="cipher.encode()">cifrar</button>
+        <button type="button" class="btn my-3 mr-2" onclick="cipher.decode()">descifrar</button>
+        <button type="button" class="btn my-3 mr-2" onclick="location.reload()">clear</button>  
+      </div>
+
+      <div class="col-12">
+        <p id="texto3">Resultado</p>
+        <textarea disabled class="result" id="cipherDecipher" rows="5"></textarea>
+      </div> 
     </div>
   </section>
-
-
-
-
-   
-
 
   <script src="https://code.jquery.com/jquery-3.3.1.min.js"integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="crossorigin="anonymous"></script>
   <script src="src/cipher.js"></script>
   <script src="src/index.js"></script>
-
-
 </body>
 </html>

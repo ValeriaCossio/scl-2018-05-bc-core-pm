@@ -1,4 +1,13 @@
 body {
-background: #eeeeee;
+    background: #eeeeee;
+    font-family: 'Roboto', sans-serif;
+}
 
+.result {
+    height: 8rem;
+    color: white;
+}
+textarea#ccText, .result {
+    width: 70%;
+    margin: auto;
 }
